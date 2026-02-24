@@ -41,6 +41,7 @@ const test: D = {
 //     option<K extends string,V>(key: K, value: V): Chainable<T & Record<K, V>>
 //     get(): T
 //   }
+
 // 3.验证相同的key,实现传入相同的key报错
 // type Chainable<T = {}> = {
 //     option<K extends string, V>(
